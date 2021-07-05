@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">NimExpressIdCardTDA</string>
+    <string name="app_name_th">อ่านข้อมูลบัตรประชาชนและเซ็นต์ประกัน</string>
+    <string name="app_default_ok">ตกลง</string>
+    <string name="app_default_loading">กำลังโหลดข้อมูล</string>
+    <string name="app_default_loading_message">กรุณารอสักครู่</string>
+    <string name="app_default_title_alert_dialog">ข้อความแจ้งเตือน</string>
+    <string name="app_default_ok_alert_dialog">ตกลง</string>
+    <string name="app_default_cancel_data_alert_dialog">ยกเลิก</string>
+    <string name="app_default_cancel_alert_dialog">ยกเลิกการเชื่อมต่อ</string>
+    <string name="app_default_ok_save_data_success_dialog1">บันทึกข้อมูลเรียบร้อยแล้ว</string>
+    <string name="app_default_ok_save_data_success_dialog2">รหัสอ้างอิง : %1$s</string>
+    <string name="error_not_install_service">ยังไม่ได้ติดตั้ง TDAService</string>
+    <string name="error_not_call_service">ไม่สามารถเรียกใช้งาน TDAService</string>
+    <string name="error_not_connect_reader">ไม่สามารถเชื่อมต่อไปยังเครื่องอ่านบัตรประชาชนได้ เครื่องอาจจะไม่ได้เปิดหรือไม่ได้เชื่อมต่อข้อมูล bluetooth</string>
+    <string name="error_cer">อุปกรณ์ไม่ได้ลงทะเบียน กรุณาอัพเดท cer</string>
+    <string name="success_connect_reader">เชื่อมต่อกับเครื่องอ่านบัตรประชาชนเรียบร้อยแล้ว</string>
+    <string name="app_default_dialog_disconect_card_reader">ยกเลิกการเชื่อมต่อกับอุปกรณ์ใช่หรือไม่ ?</string>
+
+    <string name="app_default_connect_auto_title">กำลังเชื่อมต่ออุปกรณ์</string>
+    <string name="app_default_connect_auto_message">กรุณารอสักครู่...</string>
+    <string name="app_default_not_connect_message">ไม่ได้เชื่อมต่ออุปกรณ์ ต้องการเชื่อมต่ออุปกรณ์หรือไม่?</string>
+
+    <string name="activity_main_title">อ่านข้อมูลบัตรประชาชน</string>
+    <string name="activity_card_other_title">ระบุข้อมูลบัตรอื่นๆ</string>
+    <string name="activity_dc_data_capture">ข้อมูล DC : %1$s</string>
+    <string name="activity_connect_reader">การเชื่อมต่อ : %1$s</string>
+    <string name="activity_setting_title">ตั้งค่าเครื่องอ่านข้อมูลบัตรประชาชน</string>
+    <string name="activity_setting_dc_title">ตั้งค่าดีซี</string>
+    <string name="activity_selected_card_type_title">อ่านข้อมูลบัตร</string>
+
+    <string name="label_id_card_data">เลขที่บัตรประชาชน : %1$s</string>
+    <string name="label_name_data">ชื่อ - สกุล : %1$s</string>
+    <string name="label_address_data">ที่อยู่ : %1$s</string>
+    <string name="label_exprie_card_data">วันหมดอายุบัตร : %1$s</string>
+    <string name="label_brithday_card_data">วันเกิด : %1$s \u0020\u0020\u0020อายุ : %2$s ปี</string>
+    <string name="label_createdby_card_data">วันที่ออกบัตร : %1$s</string>
+
+    <string name="error_save1">ไม่พบข้อมูล DC หรือ SubDc ที่เชื่อมกับอุปกรณ์</string>
+    <string name="error_save2">บัตรประชาชนหมดอายุ!</string>
+    <string name="error_save3">กรุณากรอกข้อมูลให้ครบถ้วน!</string>
+    <string name="error_save4">กรุณาถ่ายรูป!</string>
+    <string name="error_save5">กรุณาระบุรหัสผ่าน!</string>
+    <string name="error_save6">รหัสผ่านไม่ถูกต้อง!</string>
+    <string name="error_save7">ไม่พบข้อมูล DC หรือ SubDc กรุณาแจ้งผู้ดูแลระบบ!</string>
+
+    <string name="title_dialog_password">รหัสผ่าน</string>
+    <string name="title_dialog_ok">ตกลง</string>
+    <string name="title_dialog_cancel">ยกเลิก</string>
+
+    <string name="setting_is_connect_bluetooth_or_use">คุณได้เชื่อมต่อเปิดใช้งาน bluetooth เรียบร้อยแล้ว</string>
+    <string name="setting_not_connect_bluetooth_or_use">คุณไม่ได้เชื่อมต่อ bluetooth</string>
+    <string name="setting_is_connect_reader">เชื่อมต่อกับเครื่องอ่านบัตรประชาชนแล้ว</string>
+    <string name="setting_is_not_connect_reader">ไม่สามารถเชื่อมต่อไปยังเครื่องอ่านบัตรประชาชนได้</string>
+    <string name="setting_is_not_connect_reader_go_settting">ไม่ได้เชื่อมต่อกับเครื่องอ่านบัตรประชาชน กรุณาตั้งค่า</string>
+
+    <string name="error_result_1">-1 TA_INTERNAL_ERROR เกิดข้อผดิพลาดภายในระบบ</string>
+    <string name="error_result_2">-2 TA_INVALID_LICENSE เครื่องอ่านนี้ใช้ไม่ได้เพราะไม่มีทะเบียนในใบอนุญาต</string>
+    <string name="error_result_3">-3 TA_READER_NOT_FOUND ไม่พบเครื่องอ่านบัตร</string>
+    <string name="error_result_4">-4 TA_CONNECTION_ERROR ไม่สามารถติดต่อกับเครื่องอ่านได้</string>
+    <string name="error_result_5">-5 TA_GET_PHOTO_ERROR ไม่สามารถอ่านรูปภาพถ่ายใบหน้าได้</string>
+    <string name="error_result_6">-6 TA_GET_TEXT_ERROR ไม่สามารถอ่านข้อมูลตัวอักษรได้</string>
+    <string name="error_result_7">-7 TA_INVALID_CARD บัตรท่ีอ่านไม่ใช่บัตรประชาชน</string>
+    <string name="error_result_8">-8 TA_UNKNOWN_CARD_VERSION ไม่รองรับการใช้งานกับบัตรประชาชนรุ่นน้ี</string>
+    <string name="error_result_9">-9 TA_DISCONNECTION_ERROR ไม่สามารถยกเลิกการเช่ือมต่อกับเครื่องอ่านบัตรได้</string>
+    <string name="error_result_10">-10 TA_INIT_ERROR กระบวนการต้ังค่าเร่ิมต้นทําางานผดิพลาด</string>
+    <string name="error_result_11">-11 TA_READER_NOT_SUPPORTED ไม่รองรับการใช้งานกับเครื่องอ่านน้ีหรือไม่ พบเครื่องอ่านบัตร</string>
+    <string name="error_result_12">-12 TA_LICENSE_FILE_ERROR ไม่พบแฟ้มใบอนุญาตหรือแฟ้มใบอนุญาตเสียหาย</string>
+    <string name="error_result_13">-13 TA_PARAMETER_ERROR พารามิเตอร์หรือตัวแปรผิดพลาด</string>
+    <string name="error_result_14">-14 TA_SERVICE_ERROR ไม่พบโปรแกรมบริการ หรือโปรแกรม บริการผิดพลาด</string>
+    <string name="error_result_15">-15 TA_INTERNET_ERROR ไม่สามารถติดต่ออินเทอร์เน็ตได้</string>
+    <string name="error_result_16">-16 TA_CARD_NOT_FOUND ไม่พบบัตรในเครื่องอ่าน</string>
+    <string name="error_result_17">-17 TA_BLUETOOTH_DISABLED ไม่ได้เปิดบลูทูธ</string>
+    <string name="error_result_18">-18 TA_LICENSE_UPDATE_ERROR อัปเดตแฟ้มใบอนุญาตไม่สําเร็จ</string>
+
+    <string name="error_update_app">แอพเป็นเวอชั่นเก่า กรุณาดาวโหลดแอพเวอชั่นล่าสุด</string>
+    <string name="error_update_app2">เกิดข้อผิดพลาด : %1s</string>
+    <string name="download_app_waiting">กำลังดาวโหลด...</string>
+
+    <string name="select_mode_activity_title">เลือกรูปแบบการทำงาน</string>
+    <string name="signinsurance_activity_title">รับทราบเงื่อนไขการให้บริการ</string>
+    <string name="choice_ins_title">คุ้มครองสินค้า</string>
+    <string name="choice_no_ins_title">คุ้มครองสินค้าตามเงื่อนไข</string>
+    <!--<string name="choice_no_ins_title">ไม่คุ้มครองสินค้า</string>-->
+    <string name="choice_product_broken_title">สินค้าเสี่ยงเสียหายง่าย</string>
+    <string name="choice_product_motorcycle_title">มอเตอร์ไซค์</string>
+    <string name="choice_ins">-กรณีสินค้าเกิดความเสียหายหรือสูญหายระหว่างขนส่งสินค้า ทางผู้ขนส่งจะรับผิดชอบค่าความเสียหายหรือสูญหาย ตามมูลค่าจริงของสินค้าแต่ไม่เกิน 50,000 บาท/บิล</string>
+    <string name="choice_no_ins">-กรณีสินค้าเกิดความเสียหายหรือสูญหายระหว่างขนส่งสินค้า ทางผู้ขนส่งจะรับผิดชอบค่าความเสียหายหรือสูญหาย ตามมูลค่าจริงของสินค้าแต่ไม่เกิน 2,000บาท/บิล</string>
+    <string name="choice_product_broken">-กรณีสินค้าเกิดความเสียหายหรือสูญหายระหว่างขนส่งสินค้า ทางผู้ขนส่งจะไม่รับผิดชอบค่าความเสียหายของสินค้าทุกกรณี ยกเว้นในกรณีที่สินค้าสูญหาย จะรับผิดชอบตามมูลค่าจริงของสินค้า แต่ไม่เกิน 2,000บาท/บิล</string>
+    <string name="choice_motorcycle_broken">-กรณีสินค้าเกิดความเสียหายหรือสูญหาย ระหว่างขนส่งสินค้า ทางบริษัท นิ่มเอ็กซ์เพรส จำกัด จะรับผิดชอบต่อความเสียหายหรือสูญหายตามราคาจริงของสินค้า แต่ไม่เกิน 10,000 บาท/บิล</string>
+    <string name="choice_ins_action_title">เลือกรูปแบบเซ็นต์ลายเซ็น</string>
+
+    <string name="confirm_customer_receive_data">ต้องการทำแอพรับเองต่อหรือไม่ ?</string>
+
+    <string name="dialog_loading_data">กำลังเชื่อมต่อ</string>
+    <string name="dialog_loading_data_message">กรุณารอสักครู่...</string>
+    <string name="ok">ตกลง</string>
+
+    <string name="error_receive_bill_1">ไม่พบข้อมูลเลขที่บิล</string>
+    <string name="error_receive_bill_2">ไม่พบข้อมูลบิล</string>
+    <string name="error_receive_bill_3">ประเภทบิลไม่ถูกต้อง</string>
+    <string name="error_receive_bill_4">สถานะบิลไม่ถูกต้อง</string>
+    <string name="error_receive_bill_5">บิลนี้ถูกรับเข้า DC แล้ว</string>
+    <string name="error_receive_bill_99">ไม่พบข้อมูล กรุณาระบุข้อมูลบิล</string>
+
+    <string name="error_receive_barcode_1">กรุณาระบุข้อมูล กว้าง ยาว สูง และ น้ำหนัก ในลำดับที่ %1$s ให้ครบถ้วน</string>
+    <string name="error_receive_barcode_2">กรุณาระบุข้อมูล กว้าง ยาว สูง และ น้ำหนัก และ อุณหภูมิ ในลำดับที่ %1$s ให้ครบถ้วน</string>
+
+    <string name="lb_barcode_app_not_found">โปรแกรม ScanBarCode ไม่ได้ถูกติดตั้ง กรุณาตรวจสอบ!</string>
+
+    <string name="lb_tax_bill_data_title">ข้อมูลภาษีหัก ณ ที่จ่าย</string>
+
+    <string name="close_page">ตกลง</string>
+    <string name="messageWaiting">กำลังโหลดข้อมูล</string>
+    <string name="Preloading">กรุณารอสักครู่</string>
+    <string name="share_page">แชร์</string>
+
+    <string name="error_login_1">กรุณาระบุชื่อเข้าใช้งาน หรือ รหัสผ่านให้ครบถ้วน!</string>
+    <string name="error_login_2">ไม่พบข้อมูลผู้ใช้งานในระบบ!</string>
+    <string name="error_login_3">ชื่อผู้ใช้งานในระบบ หมดอายุ!</string>
+
+</resources>

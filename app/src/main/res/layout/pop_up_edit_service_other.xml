@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_up_edit_service_other"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/ed_service_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="http://ip:ports/nss || https://outside"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_get_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ดึง Mobile key Code" />
+
+    <Button
+        android:id="@+id/btn_mobile_key_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ยกเลิก MOBILE KEY CODE เดิม" />
+</LinearLayout>
